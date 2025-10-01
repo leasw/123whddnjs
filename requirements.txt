@@ -1,0 +1,5 @@
+numpy==1.26.4                 # legacy-compatible (avoids NumPy 2.x ABI issues)
+opencv-python==4.10.0.84      # last OpenCV that supports NumPy<2
+ultralytics>=8.3.0,<9         # YOLOv11/12 compatible
+supervision>=0.22.0           # ByteTrack API (new/old both handled by our wrapper)
+pydantic>=2.6,<3              # JSON schema models
